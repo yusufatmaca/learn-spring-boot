@@ -10,8 +10,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity(name = "categories") // this annotation maps this particular class to a table in the DB.
-@Data // this annotation generates getter & setter, constructor, toString, equalAndHashCode methods.
+@Entity(name = "categories" /* table name */) // this annotation maps this particular class to a table in the DB.
+@Data // this annotation generates getter & setter, toString, equalAndHashCode methods.
 @NoArgsConstructor
 @AllArgsConstructor
 public class Category {
